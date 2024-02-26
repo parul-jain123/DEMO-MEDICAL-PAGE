@@ -1,0 +1,364 @@
+*{
+    font-size: 10px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */ /* Comment out or remove this line */
+    height: 100%;
+  }
+  
+  /* Make the navbar sticky */
+  #navBar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #C0392B;
+  }
+
+body::-webkit-scrollbar{
+    display: none;
+    overflow-x: hidden;
+}
+.ul1{
+  
+    background-color: rgb(206, 204, 204);
+margin-right: 0px;
+overflow-x: hidden;
+height: 50px;
+overflow-y: hidden;
+} 
+    
+
+ 
+ .nav-item>a.nav-link:hover{
+    background-color: #2d529f ;
+    color: #fff !important;
+      
+ }
+ #nav:hover{
+    background-color: #288fe3;
+    color: white var(--secondary)!important;
+     position: relative;
+} 
+.navbar{
+    position: sticky!important;
+}
+
+.containera:hover{
+    color:aliceblue;
+    background-color: rgb(39, 99, 227);
+}
+
+.row{
+    border: 0px aliceblue;
+    background-color: aliceblue;
+}
+.card1{
+
+border: 0px aliceblue;
+margin-left: 10px;
+}
+.btn1{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 100px;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+}
+.box{
+    background-color:lightgray;
+    border: 0px lightgray;
+}
+.btn2{
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+   display: block;
+     margin:auto;
+    cursor: pointer;
+    text-align: center;
+}
+.btn2:hover{
+    background-color: #000;
+    color: aliceblue;
+}
+li{
+  list-style-type: none ; }
+
+
+.opening{
+  
+  top:-50px;
+      opacity: -0.9;
+    z-index: -20px;
+    position: absolute;
+ 
+   color: #f1f1f1;
+   padding-left: 0px;
+
+  }
+  .card-bodya>.opening:hover{
+    z-index: 10px;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+  }
+  .card-bodya{
+    position: relative;
+     
+  }
+
+.row{
+    background-color:white;
+    border: 1px solid white;
+    position: relative;
+  
+}
+.card-body1:hover{
+    background-color: rgb(42, 122, 212);
+    color: aliceblue;
+}
+.card-body2:hover{
+    background-color: rgb(16, 102, 201);
+    color: aliceblue;
+}
+.card-body3:hover{
+    background-color: rgb(16, 102, 201);
+    color: aliceblue;
+}
+.card-body4:hover{
+    background-color: rgb(51, 128, 217);
+    color: aliceblue;
+}
+.card-body5:hover{
+    background-color: rgb(44, 122, 211);
+    color: aliceblue;
+}
+.last{
+     background-color: lightgrey;
+    
+
+}
+
+
+.c:hover{
+    box-shadow: 5px 5px 20px black;
+
+    
+}
+.cardu{
+    text-align: center;
+}
+.content-grid{
+    margin: 30px;
+    
+
+}
+.card-body{
+    background-color: aliceblue;
+}
+.bi {
+    font-size: 1rem;
+    color: rgb(254, 254, 255);
+  }
+
+.lastbox{
+     height: 60px;
+     text-align: center;
+      color: aliceblue;
+}
+.lastbox1{
+
+
+    background-color: rgba(17, 17, 136, 0.949);
+    text-align: center;
+      color: aliceblue;
+}
+
+   
+.p{
+    font-weight: bolder;
+    
+}
+.h{
+display: block;
+
+padding-top: 30px;
+}
+.a{
+     
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+.cards:hover{
+   background-color: rgb(35, 16, 184);
+
+
+}
+a:hover{
+ color: rgb(5, 174, 231);
+}
+.s{
+    background-color: rgba(17, 17, 136, 0.949);
+    color:white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+.svg:hover{
+    color: blue;
+
+}
+.card1{
+    width:'350px'
+}
+.k{
+   
+  background-color: rgb(45, 44, 44);
+  text-align: center;
+}
+
+nav{
+    position:sticky ;
+}
+
+.sidenav {
+ margin-top: 85px;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+  }   
+   @media screen and (max-height: 450px) 
+   {
+   
+     .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   
+   }
+
+  
+   @media screen  and (max-height:768px) 
+{
+  html,
+body{
+    width: 100%;
+   overflow-x: hidden;
+} 
+
+}
+
+
+ 
+.sidenava {
+    margin-top: 135px;
+       width: 60px;
+       position: fixed;
+       z-index: 1;
+       top: 0;
+       left: 0;
+       overflow-y: hidden;
+       overflow-x: hidden;
+      
+    
+     
+     }
+   
+     .sidenav a {
+       padding: 6px 8px 6px 16px;
+       text-decoration: none;
+       font-size: 25px;
+       color: #818181;
+       display: block;
+     }
+     
+     .sidenav a:hover {
+       color: #f1f1f1;
+     }
+     
+     .main {
+       margin-left: 160px;
+       font-size: 10px;
+       padding: 0px 10px;
+     }   
+      @media screen and (max-height: 450px) 
+      {
+      
+        .sidenava {padding-top: 15px;}
+       .sidenava a {font-size: 18px;}
+      
+      }
+
+      .sidenavb {
+        margin-top: 148px;
+           width: 60px;
+         
+           position: fixed;
+           z-index: 1;
+           top: 0;
+           left: 0;
+          overflow-x: hidden;
+           padding-top: 20px;
+         }
+       
+         .sidenav a {
+           padding: 6px 8px 6px 16px;
+           text-decoration: none;
+           font-size: 25px;
+           color: #818181;
+           display: block;
+         }
+         
+         .sidenav a:hover {
+           color: #f1f1f1;
+         }
+         
+         .main {
+           margin-left: 160px;
+           font-size: 28px;
+           padding: 0px 10px;
+         }   
+          @media screen and (max-height: 450px) 
+          {
+          
+            .sidenavb {padding-top: 15px;}
+           .sidenavb a {font-size: 18px;}
+          
+          }
